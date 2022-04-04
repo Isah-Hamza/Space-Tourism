@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Tourism | Crew</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+    <div  data-wrapper class="wrapper flex flex-col crew-bg min-h-screen w-full ">
+        <header class="flex justify-between items-center md:pl-5  md:pr-0 px-5 py-4 text-white " >
+            <div class="left pl-0 p-4 rounded-full ">
+                <img class="w-10" src="../src/img/logo.svg" alt="logo">
+            </div>
+            <div data-nav class="right hide fixed w-2/3 h-screen right-0 top-0 md:w-auto md:h-auto md:!static  md:!flex items-center">
+                <ul class=" w-full h-full flex-col md:flex-row relative flex gap-10 text-sm bg-[rgba(255,255,255,.09)] px-7 py-28 md:px-20 md:py-5 backdrop-blur-[10px] md:backdrop-blur-[3px] bg-opacity-50 " >
+                    <li > <a class="navitem " href="/"> <span class="font-bold">00</span><span>HOME</span> </a> </li>
+                    <li > <a class="navitem " href="./destination.html"> <span class="font-bold">01</span><span>DESTINATION</span></a></li>
+                    <li > <a class="navitem md:active" href="./crew.html"> <span class="font-bold">02</span><span>CREW</span></a></li>
+                    <li > <a class="navitem" href="./technology.html"> <span class="font-bold">03</span><span>TECHNOLOGY</span></a></li>
+                </ul>
+                <img data-close class="absolute cursor-pointer right-6 top-11 block md:hidden" src="../starter-code/assets/shared/icon-close.svg" alt="icon-close">
+            </div>
+            <div class="block md:hidden">
+                <img data-hamburger src="../starter-code/assets/shared/icon-hamburger.svg" alt="icon-hamburger">
+            </div>
+        </header>
+        <main data-main class="flex-1 flex px-4 sm:px-10" >
+
+            <div class="crew text-white max-w-[900px] pb-8 md:pb-0 flex flex-col-reverse desktop-md:gap-28 md:grid grid-cols-2 space-y-20 desktop-md:space-y-0 gap-10  mx-auto " >
+                <div class="left flex flex-col text-center desktop-md:text-left justify-around font-['Bellefair']">
+                    <p class="uppercase flex mb-20 desktop-md:mb-0 justify-center sm:justify-start desktop-md:justify-start py-5 gap-4 text-xl tracking-wider" >
+                        <span class="opacity-50">02</span> <span>meet your crew</span> </p>
+                    <div>
+                        <p class="uppercase text-2xl opacity-50" >commander</p>
+                        <p class='text-3xl sm:text-5xl font-medium pt-5 pb-8 uppercase whitespace-nowrap '>Douglas Hurley</p>
+                        <p class="text-lg">  Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
+                            and former NASA astronaut. He launched into space for the third time as 
+                            commander of Crew Dragon Demo-2.</p>
+                    </div>
+                    <div data-indicators class="indicators justify-center desktop-md:justify-start mt-20 desktop-md:mt-0 flex gap-3">
+                        <div class="active w-[11px] h-[11px] bg-gray-700 hover:bg-gray-500 rounded-full cursor-pointer"></div>
+                        <div class="w-[11px] h-[11px] bg-gray-700 hover:bg-gray-500 rounded-full cursor-pointer"></div>
+                        <div class="w-[11px] h-[11px] bg-gray-700 hover:bg-gray-500 rounded-full cursor-pointer"></div>
+                        <div class="w-[11px] h-[11px] bg-gray-700 hover:bg-gray-500 rounded-full cursor-pointer"></div>
+                    </div>
+                </div>
+                <div class="right flex justify-center desktop-md:items-end  ">
+                    <img class=" w-[400px]" src="../starter-code/assets/crew/image-douglas-hurley.png" alt="Hurley">
+                </div>
+            </div>            
+
+            <div class="crew hide text-white max-w-[1000px] pb-8 md:pb-0 flex flex-col-reverse desktop-md:gap-28 md:grid grid-cols-2 space-y-20 desktop-md:space-y-0 gap-10  mx-auto " >
+                <div class="left flex flex-col text-center desktop-md:text-left justify-around font-['Bellefair']">
+                    <p class="uppercase flex mb-20 desktop-md:mb-0 justify-center sm:justify-start desktop-md:justify-start py-5 gap-4 text-xl tracking-wider" ><span class="opacity-50">02</span> <span>meet your crew</span> </p>
+                    <div>
+                        <p class="uppercase text-xl opacity-50" >Mission Specialist</p>
+                        <p class='text-3xl sm:text-5xl font-medium pt-5 pb-8 uppercase whitespace-nowrap '>Mark Shuttleworth</p>
+                        <p class="text-lg">  Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind 
+                            the Linux-based Ubuntu operating system. Shuttleworth became the first South 
+                            African to travel to space as a space tourist.</p>
+                    </div>
+                    <div data-indicators class="indicators justify-center desktop-md:justify-start mt-20 desktop-md:mt-0 flex gap-3">
+                        <div class=" w-[11px] h-[11px] bg-gray-700 hover:bg-gray-500 rounded-full cursor-pointer"></div>
+                        <div class="active w-[11px] h-[11px] bg-gray-700 hover:bg-gray-500 rounded-full cursor-pointer"></div>
+                        <div class="w-[11px] h-[11px] bg-gray-700 hover:bg-gray-500 rounded-full cursor-pointer"></div>
+                        <div class="w-[11px] h-[11px] bg-gray-700 hover:bg-gray-500 rounded-full cursor-pointer"></div>
+                    </div>
+                </div>
+                <div class="right flex justify-center desktop-md:items-end justify-end ">
+                    <img class=" w-[375px]" src="../starter-code/assets/crew/image-mark-shuttleworth.png" alt="Shuttleworth">
+                </div>
+            </div>
+
+            <div class="crew hide text-white max-w-[900px] pb-8 md:pb-0 flex flex-col-reverse desktop-md:gap-28 md:grid grid-cols-2 space-y-20 desktop-md:space-y-0 gap-10  mx-auto " >
+                <div class="left flex flex-col text-center desktop-md:text-left justify-around font-['Bellefair']">
+                    <p class="uppercase flex mb-20 desktop-md:mb-0 justify-center sm:justify-start desktop-md:justify-start py-5 gap-4 text-xl tracking-wider" ><span class="opacity-50">02</span> <span>meet your crew</span> </p>
+                    <div>
+                        <p class="uppercase text-2xl opacity-50" >Pilot</p>
+                        <p class=' text-3xl sm:text-5xl font-medium pt-5 pb-8 uppercase whitespace-nowrap '>Victor Glover</p>
+                        <p class="text-lg">  Pilot on the first operational flight of the SpaceX Crew Dragon to the 
+                            International Space Station. Glover is a commander in the U.S. Navy where 
+                            he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
+                            station systems flight engineer. </p>
+                    </div>
+                    <div data-indicators class="indicators justify-center desktop-md:justify-start mt-20 desktop-md:mt-0 flex gap-3">
+                        <div class=" w-[11px] h-[11px] bg-gray-700 hover:bg-gray-500 rounded-full cursor-pointer"></div>
+                        <div class=" w-[11px] h-[11px] bg-gray-700 hover:bg-gray-500 rounded-full cursor-pointer"></div>
+                        <div class="active w-[11px] h-[11px] bg-gray-700 hover:bg-gray-500 rounded-full cursor-pointer"></div>
+                        <div class="w-[11px] h-[11px] bg-gray-700 hover:bg-gray-500 rounded-full cursor-pointer"></div>
+                    </div>
+                </div>
+                <div class="right flex justify-center desktop-md:items-end justify-end ">
+                    <img class=" w-[400px]" src="../starter-code/assets/crew/image-victor-glover.png" alt="Victor">
+                </div>
+            </div>
+
+            <div class="crew hide text-white max-w-[900px] pb-8 md:pb-0 flex flex-col-reverse desktop-md:gap-28 md:grid grid-cols-2 space-y-20 desktop-md:space-y-0 gap-10  mx-auto " >
+                <div class="left flex flex-col text-center desktop-md:text-left justify-around font-['Bellefair']">
+                    <p class="uppercase flex mb-20 desktop-md:mb-0 justify-center desktop-md:justify-start py-5 gap-4 text-xl tracking-wider" ><span class="opacity-50">02</span> <span>meet your crew</span> </p>
+                    <div>
+                        <p class="uppercase text-2xl opacity-50" >Flight Engineer</p>
+                        <p class='text-3xl sm:text-5xl font-medium pt-5 pb-8 uppercase whitespace-nowrap '>Anousheh Ansari</p>
+                        <p class="text-lg"> Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
+                            Ansari was the fourth self-funded space tourist, the first self-funded woman to 
+                            fly to the ISS, and the first Iranian in space. </p>
+                    </div>
+                    <div data-indicators class="indicators justify-center desktop-md:justify-start mt-20 desktop-md:mt-0 flex gap-3">
+                        <div class=" w-[11px] h-[11px] bg-gray-700 hover:bg-gray-500 rounded-full cursor-pointer"></div>
+                        <div class=" w-[11px] h-[11px] bg-gray-700 hover:bg-gray-500 rounded-full cursor-pointer"></div>
+                        <div class="w-[11px] h-[11px] bg-gray-700 hover:bg-gray-500 rounded-full cursor-pointer"></div>
+                        <div class="active w-[11px] h-[11px] bg-gray-700 hover:bg-gray-500 rounded-full cursor-pointer"></div>
+                    </div>
+                </div>
+                <div class="right flex justify-center desktop-md:items-end justify-end ">
+                    <img class=" w-[400px]" src="../starter-code/assets/crew/image-anousheh-ansari.png" alt="Ansari">
+                </div>
+            </div>
+            
+        </main>
+    </div>
+
+    <script src="crew.js" defer ></script>
+    <script src="script.js" defer ></script>
+</body>
+</html>

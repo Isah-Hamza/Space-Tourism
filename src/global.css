@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+    .hide{
+        display: none !important;
+    }
+    header .right{
+        @apply fixed w-full h-screen left-0 top-0
+    }
+}

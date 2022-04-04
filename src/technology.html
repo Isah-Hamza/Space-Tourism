@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Tourism | Technology</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+    <div  data-wrapper class="wrapper flex flex-col technology-bg min-h-screen w-full ">
+        <header class="flex z-10 -mb-8 md:mb-0 justify-between items-center pt-0 px-5 desktop-md:!py-4 md:pr-0 md:pl-5 text-white" >
+            <div class="left pl-0 p-3 desktop-md:p-4 rounded-full ">
+                <img class="w-10" src="../src/img/logo.svg" alt="logo">
+            </div>
+            <div data-nav class="right hide fixed w-2/3 h-screen right-0 top-0 md:w-auto md:h-auto md:!static  md:!flex items-center">
+                <ul class=" w-full h-full flex-col md:flex-row relative flex gap-10 text-sm bg-[rgba(255,255,255,.09)] px-7 py-28 md:px-20 md:py-5 backdrop-blur-[10px] md:backdrop-blur-[3px] bg-opacity-50 " >
+                    <li > <a class="navitem " href="/"> <span class="font-bold">00</span><span>HOME</span> </a> </li>
+                    <li > <a class="navitem " href="./destination.html"> <span class="font-bold">01</span><span>DESTINATION</span></a></li>
+                    <li > <a class="navitem" href="./crew.html"> <span class="font-bold">02</span><span>CREW</span></a></li>
+                    <li > <a class="navitem md:active" href="./technology.html"> <span class="font-bold">03</span><span>TECHNOLOGY</span></a></li>
+                </ul>
+                <img data-close class="absolute cursor-pointer right-6 top-6 block md:hidden" src="../starter-code/assets/shared/icon-close.svg" alt="icon-close">
+            </div>
+            <div class="block md:hidden">
+                <img data-hamburger src="../starter-code/assets/shared/icon-hamburger.svg" alt="icon-hamburger">
+            </div>
+        </header>
+        <main data-main class="flex-1 flex items-center" >
+            <div class="technology text-center desktop-md:text-left text-white max-w-[900px] flex flex-col-reverse desktop-md:grid grid-cols-[1.1fr,1fr] mx-auto " >
+                <div class="left flex px-4 ms:px-10 desktop-md:px-0 flex-col justify-around font-['Bellefair']">
+                    <p class="flex text-xl sm:text-2xl justify-center md:justify-start gap-2 mb-14 tracking-widest uppercase " ><span class="text-lightBlue" >03</span>text launch 101</p>
+                    <div class="flex flex-col-reverse desktop-md:flex-row gap-8 lg:gap-14">
+                        <div data-tabs class=" mb-10 gap-7 flex justify-center desktop-md:justify-start desktop-md:flex-col text-xl  ">
+                            <div class="active hover:cursor-pointer w-16 h-16 flex justify-center items-center rounded-full border border-gray-800 hover:border-gray-400">1</div>
+                            <div class= "hover:cursor-pointer w-16 h-16 flex justify-center items-center rounded-full border border-gray-800 hover:border-gray-400">2</div>
+                            <div class= "hover:cursor-pointer w-16 h-16 flex justify-center items-center rounded-full border border-gray-800 hover:border-gray-400">3</div>
+                        </div>
+                        <div>
+                            <p class="uppercase tracking-wider text-xs opacity-70" >the technology...</p>
+                            <h2 class="text-4xl tracking-wider uppercase pt-3 pb-6" >launch vehicle</h2>
+                            <p class="opacity-70" >A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's 
+                            surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation.
+                            Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right flex my-10 justify-end desktop-md:absolute desktop-md:right-0 desktop-md:-translate-y-2/3 desktop-md:top-2/3 w-full desktop-md:w-[400px] h-[430px]">
+                    <img class=" w-full h-full" src="../starter-code/assets/technology/image-launch-vehicle-portrait.jpg" alt="image-launch-vehicle-portrait">
+                </div>
+            </div>
+
+            <div class="technology text-center desktop-md:text-left hide text-white max-w-[900px] flex flex-col-reverse desktop-md:grid grid-cols-[1.1fr,1fr] mx-auto " >
+                <div class="left flex px-4 ms:px-10 desktop-md:px-0 flex-col justify-around font-['Bellefair']">
+                    <p class="flex text-xl sm:text-2xl justify-center md:justify-start gap-2 mb-14 tracking-widest uppercase " ><span class="text-lightBlue" >03</span>text launch 101</p>
+                    <div class="flex flex-col-reverse desktop-md:flex-row gap-8 lg:gap-14">
+                        <div data-tabs class="mb-10 gap-7 flex justify-center desktop-md:justify-start desktop-md:flex-col text-xl  ">
+                            <div class="hover:cursor-pointer w-16 h-16 flex justify-center items-center rounded-full border border-gray-800 hover:border-gray-400">1</div>
+                            <div class= "active hover:cursor-pointer w-16 h-16 flex justify-center items-center rounded-full border border-gray-800 hover:border-gray-400">2</div>
+                            <div class= "hover:cursor-pointer w-16 h-16 flex justify-center items-center rounded-full border border-gray-800 hover:border-gray-400">3</div>
+                        </div>
+                        <div>
+                            <p class="uppercase tracking-wider text-xs opacity-70" >the technology...</p>
+                            <h2 class="text-4xl tracking-wider uppercase pt-3 pb-6" >Spaceport</h2>
+                            <p class="opacity-70" >  A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, 
+                                by analogy to the seaport for ships or airport for aircraft. Based in the 
+                                famous Cape Canaveral, our spaceport is ideally situated to take advantage 
+                                of the Earth’s rotation for launch.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right flex my-10 justify-end desktop-md:absolute desktop-md:right-0 desktop-md:-translate-y-2/3 desktop-md:top-2/3 w-full desktop-md:w-[400px] h-[430px]">
+                    <img class=" w-full h-full" src="../starter-code/assets/technology/image-spaceport-portrait.jpg" alt="image-launch-vehicle-portrait">
+                </div>
+            </div>
+
+            <div class="technology text-center desktop-md:text-left hide text-white max-w-[900px] flex flex-col-reverse desktop-md:grid grid-cols-[1.1fr,1fr] mx-auto " >
+                <div class="left flex px-4 ms:px-10 desktop-md:px-0 flex-col justify-around font-['Bellefair']">
+                    <p class="flex text-xl sm:text-2xl justify-center md:justify-start gap-2 mb-14 tracking-widest uppercase " ><span class="text-lightBlue" >03</span>text launch 101</p>
+                    <div class="flex flex-col-reverse desktop-md:flex-row gap-8 lg:gap-14">
+                        <div data-tabs class="mb-10 gap-7 flex justify-center desktop-md:justify-start desktop-md:flex-col text-xl  ">
+                            <div class="hover:cursor-pointer w-16 h-16 flex justify-center items-center rounded-full border border-gray-800 hover:border-gray-400">1</div>
+                            <div class= " hover:cursor-pointer w-16 h-16 flex justify-center items-center rounded-full border border-gray-800 hover:border-gray-400">2</div>
+                            <div class= "active hover:cursor-pointer w-16 h-16 flex justify-center items-center rounded-full border border-gray-800 hover:border-gray-400">3</div>
+                        </div>
+                        <div>
+                            <p class="uppercase tracking-wider text-xs opacity-70" >the technology...</p>
+                            <h2 class="text-4xl tracking-wider uppercase pt-3 pb-6" >Space capsule</h2>
+                            <p class="opacity-70" >   A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
+                                capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
+                                you'll spend your time during the flight. It includes a space gym, cinema, 
+                                and plenty of other activities to keep you entertained.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right flex my-10 justify-end desktop-md:absolute desktop-md:right-0 desktop-md:-translate-y-2/3 desktop-md:top-2/3 w-full desktop-md:w-[400px] h-[430px]">
+                    <img class=" w-full h-full" src="../starter-code/assets/technology/image-space-capsule-portrait.jpg" alt="image-space-capsule-portrait">
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="technology.js" defer ></script>
+    <script src="./script.js" defer ></script>
+</body>
+</html>
